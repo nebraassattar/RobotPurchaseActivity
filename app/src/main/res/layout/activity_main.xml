@@ -51,7 +51,7 @@
             android:layout_width="100dp"
             android:layout_height="60dp"
             android:layout_marginStart="10dp"
-            android:text="Reward A" />
+            android:text = "@string/reward_a_text"/>
 
 
         <Button
@@ -60,8 +60,7 @@
             android:layout_height="60dp"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
-
-            android:text="Reward B" />
+            android:text = "@string/reward_b_text"/>
 
 
         <Button
@@ -69,7 +68,7 @@
             android:layout_width="100dp"
             android:layout_height="60dp"
             android:layout_marginEnd="10dp"
-            android:text="Reward C" />
+            android:text = "@string/reward_c_text"/>
 
     </LinearLayout>
 
