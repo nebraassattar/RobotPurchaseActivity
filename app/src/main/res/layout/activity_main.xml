@@ -22,6 +22,14 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/robot_white_large" />
 
+        <TextView
+            android:id="@+id/balanceTotal"
+            android:layout_width="30dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="3" />
+
         <ImageView
             android:id="@+id/energyCounter"
             android:layout_width="match_parent"
@@ -42,6 +50,7 @@
             android:id="@+id/rewardA"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
             android:text="Reward A" />
 
 
@@ -49,6 +58,9 @@
             android:id="@+id/rewardB"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+
             android:text="Reward B" />
 
 
@@ -56,6 +68,7 @@
             android:id="@+id/rewardC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
             android:text="Reward C" />
 
     </LinearLayout>
@@ -68,39 +81,45 @@
 
         <TextView
             android:id="@+id/rewardATotal"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
             android:text="1" />
 
         <ImageView
             android:id="@+id/rewardAPicture"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             app:srcCompat="@drawable/energy_counter"
-            android:layout_marginEnd="70dp"/>
+            android:layout_marginEnd="30dp"/>
 
         <TextView
             android:id="@+id/rewardBTotal"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_marginStart="35dp"
             android:text="2" />
 
         <ImageView
             android:id="@+id/rewardBPicture"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="35dp"
             app:srcCompat="@drawable/energy_counter" />
 
         <TextView
             android:id="@+id/rewardCTotal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_marginStart="30dp"
             android:text="3" />
 
         <ImageView
             android:id="@+id/rewardCPicture"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             app:srcCompat="@drawable/energy_counter" />
 
     </LinearLayout>
